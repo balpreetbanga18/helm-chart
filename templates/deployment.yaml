@@ -23,3 +23,8 @@ spec:
         - name: {{ .name }}
           value: "{{ .value }}"
         {{- end }}
+        envFrom:
+        - configMapRef:
+            name: {{ .Release.Name }}-configmap
+        - secretRef:
+            name: {{ .Release.Name }}-secret
