@@ -21,3 +21,4 @@ resources:
 env:
   - name: ENV_VAR
     value: "production"
+secretKey: "my-secret-value"
