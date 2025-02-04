@@ -5,3 +5,4 @@ metadata:
   name: {{ .Release.Name }}-configmap
 data:
   config-key: "example-value2"
+jjlhl
